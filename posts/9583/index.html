@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Einstiegen bitte!"><meta name="google-site-verification" content="L7-zLUxhF4WYJprTtGO0jUL7BYmE9BrpzuwU7s_XEJI"><title>Build up Webmapping Environment on Windows | Chenyu's Script</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-91094510-1','auto');ga('send','pageview');</script></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Build up Webmapping Environment on Windows</h1><a id="logo" href="/.">Chenyu's Script</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about.html"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Build up Webmapping Environment on Windows</h1><div class="post-meta">Jun 3, 2018<span> | </span><span class="category"><a href="/categories/Network/">Network</a></span><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><a class="disqus-comment-count" data-disqus-identifier="posts/9583/" href="/posts/9583/#disqus_thread"></a><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">Contents</div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Install-Java"><span class="toc-number">1.</span> <span class="toc-text">Install Java</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-Apache-Tomcat"><span class="toc-number">2.</span> <span class="toc-text">Deploy Apache Tomcat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Publish-local-geodata-as-WMS"><span class="toc-number">3.</span> <span class="toc-text">Publish local geodata as WMS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Publish-website"><span class="toc-number">4.</span> <span class="toc-text">Publish website</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Reference"><span class="toc-number">5.</span> <span class="toc-text">Reference</span></a></li></ol></div></div><div class="post-content"><p>This blog is about how to do web mapping with local database and server.</p>
+<p>Tools: </p>
+<ul>
+<li>Java</li>
+<li>Apache Tomcat</li>
+<li>PostgreSQL</li>
+<li>GeoServer</li>
+</ul>
+<hr>
+<h3 id="Install-Java"><a href="#Install-Java" class="headerlink" title="Install Java"></a>Install Java</h3><p>Install <code>jdk-10.0.1_windows-x64_bin.exe</code> and <code>jre-8u171-windows-i586.exe</code></p>
+<p>Set system environment:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JAVA_HOME</td>
+<td>C:\Program Files (x86)\Java\jdk1.8.0_171</td>
+</tr>
+<tr>
+<td>JAVA_BIN</td>
+<td>%JAVA_HOME%\bin</td>
+</tr>
+</tbody>
+</table>
+<p>Check <code>Java</code> in <code>cmd</code>:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">java -version</span><br><span class="line"></span><br><span class="line">java version <span class="string">"1.8.0_171"</span></span><br><span class="line">Java(TM) SE Runtime Environment (build 1.8.0_171-b11)</span><br><span class="line">Java HotSpot(TM) Client VM (build 25.171-b11, mixed mode)</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="Deploy-Apache-Tomcat"><a href="#Deploy-Apache-Tomcat" class="headerlink" title="Deploy Apache Tomcat"></a>Deploy Apache Tomcat</h3><p>Unzip <code>apache-tomcat-9.0.8-windows-x64.zip</code></p>
+<p>Set system environment:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CATALINA_BASE</td>
+<td>C:\apache-tomcat-9.0.8</td>
+</tr>
+<tr>
+<td>CATALINA_BIN</td>
+<td>C:\apache-tomcat-9.0.8\bin</td>
+</tr>
+<tr>
+<td>CATALINA_HOME</td>
+<td>C:\apache-tomcat-9.0.8</td>
+</tr>
+</tbody>
+</table>
+<p>Add users in <code>‪C:\apache-tomcat-9.0.8\conf\tomcat-users.xml</code>:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">role</span> <span class="attr">rolename</span>=<span class="string">"manager-gui"</span>/&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">role</span> <span class="attr">rolename</span>=<span class="string">"admin-gui"</span>/&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">user</span> <span class="attr">username</span>=<span class="string">"tomcat"</span> <span class="attr">password</span>=<span class="string">"tomcat"</span> <span class="attr">roles</span>=<span class="string">"manager-gui"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Chnage Tomcat port in <code>C:\apache-tomcat-9.0.8\conf\server.xml</code> if <code>8080</code> is occupied:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Connector</span> <span class="attr">port</span>=<span class="string">"8090"</span> <span class="attr">protocol</span>=<span class="string">"HTTP/1.1"</span></span></span><br><span class="line"><span class="tag">           <span class="attr">connectionTimeout</span>=<span class="string">"20000"</span></span></span><br><span class="line"><span class="tag">           <span class="attr">redirectPort</span>=<span class="string">"8443"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Increase Tomcat file size in <code>C:\apache-tomcat-9.0.8\webapps\manager\WEB-INF\web.xml</code>:<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">max-file-size</span>&gt;</span>252428800<span class="tag">&lt;/<span class="name">max-file-size</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">max-request-size</span>&gt;</span>252428800<span class="tag">&lt;/<span class="name">max-request-size</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>Start server <code>C:\apache-tomcat-9.0.8\bin\service.bat</code></p>
+<p>Close your firewall.</p>
+<p>Open <code>localhost:8090</code> in a browser.</p>
+<p>If Tomcat flashback, check Tomcat in debug mode:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> to\your\tomcat\bin</span><br><span class="line">startup.bat debug</span><br></pre></td></tr></table></figure>
+<h3 id="Publish-local-geodata-as-WMS"><a href="#Publish-local-geodata-as-WMS" class="headerlink" title="Publish local geodata as WMS"></a>Publish local geodata as WMS</h3><p>Install PostgreSQL(Database) and PostGIS(a spatial database extender), and GeoServer.</p>
+<p>Input Geodata (e.g. shape file) to PostgreSQL by PostGIS.</p>
+<p><img src="\images\postgis_ui.png" alt="PostgreSQL web UI"></p>
+<p>Login GeoServer <a href="http://localhost:8080/geoserver" target="_blank" rel="noopener">http://localhost:8080/geoserver</a>, click <code>Stores</code> add data from database, click <code>Layers</code> to publish a layer as <code>WMS</code>, click <code>Layer Groups</code> to organize Layers. Finally, click <code>Layer preview</code> , open layers afrom <code>OpenLayers</code> to preview.</p>
+<p><img src="\images\geoserver_pre.png" alt="GeoServer Layer Preview"></p>
+<h3 id="Publish-website"><a href="#Publish-website" class="headerlink" title="Publish website"></a>Publish website</h3><p>Finish your front-end codes (HTML, CSS, JS), include the <code>WMS</code> in your JS codes. Open a command window on your website folder:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jar -cvf webmapping.war *</span><br></pre></td></tr></table></figure></p>
+<p>Copy <code>.war</code> to Tomcat webapps folder <code>C:\apache-tomcat-9.0.8\webapps</code>. Start Tomcat server, login Tomcat with <code>manager</code> account. Click <code>Manager App</code>, then upload the <code>.war</code> file in the <code>WAR file to deploy</code> part and click deploy.</p>
+<p><img src="\images\tomcat_manager.png" alt="Tomcat Web Application Manager"></p>
+<p>If everything works, click <code>webmapping</code> to open the web application.</p>
+<p><img src="\images\webapp.png" alt="Web App"></p>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p><a href="https://www.youtube.com/watch?v=08LS7XZWzPE&amp;t=619s" target="_blank" rel="noopener">YouTube | Web mapping: PostGIS + Geoserver + QGis + Leaflet</a><br><a href="https://gis.stackexchange.com/questions/192548/the-connection-was-reset-deploying-geoserver-war-in-ubuntu" target="_blank" rel="noopener">stackoverflow | The connection was reset deploying geoserver.war in ubuntu</a><br><a href="https://gis.stackexchange.com/questions/204495/not-able-to-deploy-geoserver-war-through-apache-tomcat" target="_blank" rel="noopener">stackoverflow | Not able to deploy geoserver.war through apache tomcat</a></p>
+</div><div class="tags"><a href="/tags/Tomcat/">Tomcat</a><a href="/tags/PostgreSQL/">PostgreSQL</a><a href="/tags/GeoServer/">GeoServer</a><a href="/tags/Leaflet/">Leaflet</a></div><div class="post-nav"><a class="next" href="/posts/50946/">Start a Local Server with Python3</a></div><div id="disqus_thread"><div class="btn_click_load"><button class="disqus_click_btn">阅读评论 「请确保 disqus.com 可以正常加载」</button></div><script>var disqus_shortname = 'chenyuzuoo';
+var disqus_identifier = 'posts/9583/';
+var disqus_title = 'Build up Webmapping Environment on Windows';
+var disqus_url = 'https://chenyuzuoo.github.io/posts/9583/';
+$('.btn_click_load').click(function() {
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+  $('.btn_click_load').css('display','none');
+});
+$.ajax({
+  url: 'https://disqus.com/next/config.json',
+  timeout: 3000,
+  type: 'GET',
+  success: (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    $('.btn_click_load').css('display','none');
+  })(),
+  error: function() {
+    $('.btn_click_load').css('display','block');
+  }
+});</script><script id="dsq-count-scr" src="//chenyuzuoo.disqus.com/count.js" async></script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://chenyuzuoo.github.io"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> Categories</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/ArcGIS/">ArcGIS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/CSS/">CSS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Database/">Database</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hadoop/">Hadoop</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Latex/">Latex</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Network/">Network</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Python/">Python</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/R/">R</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Sublime/">Sublime</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Theory/">Theory</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> Tags</i></div><div class="tagcloud"><a href="/tags/tools/" style="font-size: 15px;">tools</a> <a href="/tags/algorithm/" style="font-size: 15px;">algorithm</a> <a href="/tags/error-shooting/" style="font-size: 15px;">error shooting</a> <a href="/tags/design/" style="font-size: 15px;">design</a> <a href="/tags/text-processing/" style="font-size: 15px;">text processing</a> <a href="/tags/installation/" style="font-size: 15px;">installation</a> <a href="/tags/tool/" style="font-size: 15px;">tool</a> <a href="/tags/ArcGIS/" style="font-size: 15px;">ArcGIS</a> <a href="/tags/network/" style="font-size: 15px;">network</a> <a href="/tags/Tomcat/" style="font-size: 15px;">Tomcat</a> <a href="/tags/PostgreSQL/" style="font-size: 15px;">PostgreSQL</a> <a href="/tags/GeoServer/" style="font-size: 15px;">GeoServer</a> <a href="/tags/Leaflet/" style="font-size: 15px;">Leaflet</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> Recent</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/posts/9583/">Build up Webmapping Environment on Windows</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/50946/">Start a Local Server with Python3</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/61525/">How to automatically vectorize raster images with Arcgis</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/4477/">Pandas DataFrame Row Slicing by Value from another Table</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/31044/">Python Nested Class</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/8573/">GIS Object Has No Attribute 'admin'</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/22406/">Python Logging to Console and External File</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/49491/">Some Useful Packages in Latex</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/9892/">Extract Hour Field from Text under Database(PostgreSQL)</a></li><li class="post-list-item"><a class="post-list-link" href="/posts/57760/">Including Chinese Charaters in Latex</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> Recent Comments</i></div><script type="text/javascript" src="//chenyuzuoo.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> Links</i></div><ul></ul><a href="https://qsli.github.io/" title="KL's Blog" target="_blank">KL's Blog</a><ul></ul><a href="https://shuoyanhuang.github.io/" title="S.Huang's Personal Page" target="_blank">S.Huang's Personal Page</a></div><div class="widget"><div class="widget-title"><i class="fa fa-view-o"> View Record</i></div></div>Total<span id="busuanzi_container_site_pv"><span> </span><span rel="nofollow" id="busuanzi_value_site_pv"></span><span rel="nofollow">  hits, </span></span><span id="busuanzi_container_site_uv"><span rel="nofollow" id="busuanzi_value_site_uv"></span><span rel="nofollow">  vistors.</span></span></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">Chenyu's Script.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
