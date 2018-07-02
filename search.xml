@@ -3,6 +3,28 @@
   
     
     <entry>
+      <title>ArcGIS_admin Python Module is Online</title>
+      <link href="/posts/14057/"/>
+      <content type="html"><![CDATA[<p>When I was working in Esri Deutshcland in November and December 2017 as a working student, my job is scripting for ArcGIS Pro User Management.</p><p>Before I got the job, I was temporarily living in Frankfurt am Main. While Esri Deutshcland located in a small village close to Munich, it takes quite a while to go from Munich to there. Although the interview was scheduled at 1 pm, I needed to leave Munich at 8 am. The earliest ICE (German high speed train) from Frankfurt am Main to Munich would arrive in Munich at 9 am. The only option left was over-night bus.</p><p>I quiet enjoyed the work in Esri Deutshcland. The module is used for ArcGIS user management, to retrieve users and their items, licensing and deleting users. It favors the administrators in an organization. </p><p>The Python module address: <a href="http://www.arcgis.com/home/item.html?id=0e590693631c47bbb7e0d00feac14f2c#overview" target="_blank" rel="noopener">http://www.arcgis.com/home/item.html?id=0e590693631c47bbb7e0d00feac14f2c#overview</a><br>The blog address: <a href="https://gis-iq.esri.de/lizenzzuweisung-von-arcgis-pro-und-loeschen-inaktiver-nutzer-mit-der-arcgis-api-for-python/" target="_blank" rel="noopener">https://gis-iq.esri.de/lizenzzuweisung-von-arcgis-pro-und-loeschen-inaktiver-nutzer-mit-der-arcgis-api-for-python/</a></p>]]></content>
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ArcGIS Pro </tag>
+            
+            <tag> user management </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Shapefile Import Failed</title>
       <link href="/posts/4483/"/>
       <content type="html"><![CDATA[<p>Using <code>PostGIS Shapefile Import/Export Manager</code> to import <code>shapefile</code> into database, but it failed.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">==============================</span><br><span class="line">Shapefile type: Point</span><br><span class="line">PostGIS type: POINT[2]</span><br><span class="line">Failed in pgui_exec(): ERROR:  schema &quot;public&quot; does not exist</span><br><span class="line">LINE 4: CREATE TABLE &quot;public&quot;.&quot;railwayStation&quot; (gid serial,</span><br><span class="line">                     ^</span><br><span class="line"></span><br><span class="line">Shapefile import failed.</span><br></pre></td></tr></table></figure><p>Because the database is not a geo database.</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> EXTENSION postgis;</span><br></pre></td></tr></table></figure><p>If get the ERROR:</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR:  no schema has been selected to <span class="keyword">create</span> <span class="keyword">in</span></span><br></pre></td></tr></table></figure><p>excute:</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">SCHEMA</span> <span class="keyword">public</span>;</span><br></pre></td></tr></table></figure>]]></content>
