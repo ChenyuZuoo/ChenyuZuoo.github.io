@@ -1,437 +1,522 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Chenyu&#39;s Script</title>
-  <subtitle>I am finding a way to decode into your heart.</subtitle>
+  
+  
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://chenyuzuoo.github.io/"/>
-  <updated>2017-11-30T21:20:23.767Z</updated>
-  <id>http://chenyuzuoo.github.io/</id>
+  <link href="https://chenyuzuoo.github.io/"/>
+  <updated>2018-07-08T17:22:49.618Z</updated>
+  <id>https://chenyuzuoo.github.io/</id>
   
   <author>
-    <name>Chenyu Zuo</name>
+    <name>Chenyu</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python Logging to Console and External File</title>
-    <link href="http://chenyuzuoo.github.io/posts/8c6bed2/"/>
-    <id>http://chenyuzuoo.github.io/posts/8c6bed2/</id>
-    <published>2017-11-30T21:01:30.000Z</published>
-    <updated>2017-11-30T21:20:23.767Z</updated>
+    <title>Control Leadlet Overlays</title>
+    <link href="https://chenyuzuoo.github.io/posts/27622/"/>
+    <id>https://chenyuzuoo.github.io/posts/27622/</id>
+    <published>2018-07-08T13:33:19.000Z</published>
+    <updated>2018-07-08T17:22:49.618Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Function&quot;&gt;&lt;a href=&quot;#Function&quot; class=&quot;headerlink&quot; title=&quot;Function&quot;&gt;&lt;/a&gt;Function&lt;/h3&gt;&lt;p&gt;Logging to multiple destinations with differen
+      
+      
+        
+        
+          &lt;p&gt;Adding several lays to leaflet and display the basic information of the layers on the map is very useful. &lt;code&gt;Leaflet&lt;/code&gt; provaided
+        
+      
     
     </summary>
     
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
+      <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
     
     
-      <category term="debug" scheme="http://chenyuzuoo.github.io/tags/debug/"/>
+      <category term="listener" scheme="https://chenyuzuoo.github.io/tags/listener/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ArcGIS_admin Python Module is Online</title>
+    <link href="https://chenyuzuoo.github.io/posts/14057/"/>
+    <id>https://chenyuzuoo.github.io/posts/14057/</id>
+    <published>2018-07-02T07:47:04.000Z</published>
+    <updated>2018-07-02T08:22:04.716Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;When I was working in Esri Deutshcland in November and December 2017 as a working student, my job is scripting for ArcGIS Pro User
+        
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
+    
+    
+      <category term="ArcGIS Pro" scheme="https://chenyuzuoo.github.io/tags/ArcGIS-Pro/"/>
+    
+      <category term="user management" scheme="https://chenyuzuoo.github.io/tags/user-management/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shapefile Import Failed</title>
+    <link href="https://chenyuzuoo.github.io/posts/4483/"/>
+    <id>https://chenyuzuoo.github.io/posts/4483/</id>
+    <published>2018-06-22T10:04:12.000Z</published>
+    <updated>2018-06-22T10:09:48.272Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Using &lt;code&gt;PostGIS Shapefile Import/Export Manager&lt;/code&gt; to import &lt;code&gt;shapefile&lt;/code&gt; into database, but it failed.&lt;/p&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Drop All Tables in PostgreSQL</title>
+    <link href="https://chenyuzuoo.github.io/posts/35459/"/>
+    <id>https://chenyuzuoo.github.io/posts/35459/</id>
+    <published>2018-06-22T09:49:30.000Z</published>
+    <updated>2018-06-22T09:52:47.917Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Drop all tables in a database, but keep the database.&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>An Investigation of Visual Analytics Maps</title>
+    <link href="https://chenyuzuoo.github.io/posts/3493/"/>
+    <id>https://chenyuzuoo.github.io/posts/3493/</id>
+    <published>2018-06-06T12:42:05.000Z</published>
+    <updated>2018-06-18T07:37:59.447Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is an investigation related to econimic geography visual analytics.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Others" scheme="https://chenyuzuoo.github.io/categories/Others/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>A Detailed Introduction of Webmapping with WMS and Leaflet</title>
+    <link href="https://chenyuzuoo.github.io/posts/8757/"/>
+    <id>https://chenyuzuoo.github.io/posts/8757/</id>
+    <published>2018-06-04T13:29:53.000Z</published>
+    <updated>2018-06-05T13:06:43.898Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Leaflet-and-WMS&quot;&gt;&lt;a href=&quot;#Leaflet-and-WMS&quot; class=&quot;headerlink&quot; title=&quot;Leaflet and WMS&quot;&gt;&lt;/a&gt;Leaflet and WMS&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Web Map
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+    
+    
+      <category term="Network" scheme="https://chenyuzuoo.github.io/tags/Network/"/>
+    
+      <category term="web mapping" scheme="https://chenyuzuoo.github.io/tags/web-mapping/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Build up Webmapping Environment on Windows</title>
+    <link href="https://chenyuzuoo.github.io/posts/9583/"/>
+    <id>https://chenyuzuoo.github.io/posts/9583/</id>
+    <published>2018-06-03T13:58:02.000Z</published>
+    <updated>2018-06-04T08:01:30.315Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This blog is about how to do web mapping with local database and server.&lt;/p&gt;
+&lt;p&gt;Tools: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;Apache
+        
+      
+    
+    </summary>
+    
+      <category term="Network" scheme="https://chenyuzuoo.github.io/categories/Network/"/>
+    
+    
+      <category term="Tomcat" scheme="https://chenyuzuoo.github.io/tags/Tomcat/"/>
+    
+      <category term="PostgreSQL" scheme="https://chenyuzuoo.github.io/tags/PostgreSQL/"/>
+    
+      <category term="GeoServer" scheme="https://chenyuzuoo.github.io/tags/GeoServer/"/>
+    
+      <category term="Leaflet" scheme="https://chenyuzuoo.github.io/tags/Leaflet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Start a Local Server with Python3</title>
+    <link href="https://chenyuzuoo.github.io/posts/50946/"/>
+    <id>https://chenyuzuoo.github.io/posts/50946/</id>
+    <published>2018-06-03T08:57:59.000Z</published>
+    <updated>2018-06-03T17:14:14.897Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Python3 changed the &lt;code&gt;SimpleHTTPServer&lt;/code&gt;. To use it, see as followed:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open &lt;code&gt;cmd&lt;/code&gt; on the folder you
+        
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
+    
+    
+      <category term="network" scheme="https://chenyuzuoo.github.io/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to automatically vectorize raster images with Arcgis</title>
+    <link href="https://chenyuzuoo.github.io/posts/61525/"/>
+    <id>https://chenyuzuoo.github.io/posts/61525/</id>
+    <published>2018-03-08T13:07:32.000Z</published>
+    <updated>2018-06-04T09:43:55.363Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Tool: ArcGIS Pro Desktop 2.1&lt;br&gt;Original data: 9 grayscale images in Shanghai area&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ArcGIS" scheme="https://chenyuzuoo.github.io/categories/ArcGIS/"/>
+    
+    
+      <category term="ArcGIS" scheme="https://chenyuzuoo.github.io/tags/ArcGIS/"/>
     
   </entry>
   
   <entry>
     <title>Pandas DataFrame Row Slicing by Value from another Table</title>
-    <link href="http://chenyuzuoo.github.io/posts/729eb5ba/"/>
-    <id>http://chenyuzuoo.github.io/posts/729eb5ba/</id>
-    <published>2017-11-29T21:55:22.000Z</published>
-    <updated>2017-11-30T20:46:57.811Z</updated>
+    <link href="https://chenyuzuoo.github.io/posts/4477/"/>
+    <id>https://chenyuzuoo.github.io/posts/4477/</id>
+    <published>2017-11-29T22:05:44.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;There are &lt;code&gt;field_1&lt;/code&gt; in both tables, we want to get rows &lt;code&gt;field_3&lt;/code&gt; from &lt;code&gt;table_2&lt;/code&gt; if the &lt;code&gt;field_1&lt;/c
+      
+      
+        
+        
+          &lt;p&gt;There are &lt;code&gt;field_1&lt;/code&gt; in both tables, we want to get rows &lt;code&gt;field_3&lt;/code&gt; from &lt;code&gt;table_2&lt;/code&gt; if the
+        
+      
     
     </summary>
-    
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
     
     
   </entry>
   
   <entry>
     <title>Python Nested Class</title>
-    <link href="http://chenyuzuoo.github.io/posts/485f8ef1/"/>
-    <id>http://chenyuzuoo.github.io/posts/485f8ef1/</id>
-    <published>2017-11-29T08:56:31.000Z</published>
-    <updated>2017-11-29T09:17:54.895Z</updated>
+    <link href="https://chenyuzuoo.github.io/posts/31044/"/>
+    <id>https://chenyuzuoo.github.io/posts/31044/</id>
+    <published>2017-11-29T20:40:58.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;What I want to do, is to have a hierarchically organized Python &lt;code&gt;Class&lt;/code&gt;. I wanted to pass the &lt;code&gt;outer class&lt;/code&gt; instanc
+      
+      
+        
+        
+          &lt;p&gt;What I want to do, is to have a hierarchically organized Python &lt;code&gt;Class&lt;/code&gt;. I wanted to pass the &lt;code&gt;outer class&lt;/code&gt;
+        
+      
     
     </summary>
     
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
     
-    
-      <category term="Object-Oriented Programming" scheme="http://chenyuzuoo.github.io/tags/Object-Oriented-Programming/"/>
     
   </entry>
   
   <entry>
     <title>GIS Object Has No Attribute &#39;admin&#39;</title>
-    <link href="http://chenyuzuoo.github.io/posts/dc5d9d55/"/>
-    <id>http://chenyuzuoo.github.io/posts/dc5d9d55/</id>
-    <published>2017-11-06T22:50:58.000Z</published>
-    <updated>2017-11-12T20:44:52.795Z</updated>
+    <link href="https://chenyuzuoo.github.io/posts/8573/"/>
+    <id>https://chenyuzuoo.github.io/posts/8573/</id>
+    <published>2017-11-06T20:40:13.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;ArcGIS-Python-API&quot;&gt;&lt;a href=&quot;#ArcGIS-Python-API&quot; class=&quot;headerlink&quot; title=&quot;ArcGIS Python API&quot;&gt;&lt;/a&gt;ArcGIS Python API&lt;/h4&gt;&lt;blockquote&gt;
-
+      
+      
+        
+        
+          &lt;h3 id=&quot;ArcGIS-Python-API&quot;&gt;&lt;a href=&quot;#ArcGIS-Python-API&quot; class=&quot;headerlink&quot; title=&quot;ArcGIS Python API&quot;&gt;&lt;/a&gt;ArcGIS Python
+        
+      
     
     </summary>
     
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
     
     
-      <category term="ArcGIS" scheme="http://chenyuzuoo.github.io/tags/ArcGIS/"/>
+      <category term="error shooting" scheme="https://chenyuzuoo.github.io/tags/error-shooting/"/>
     
-      <category term="ESRI" scheme="http://chenyuzuoo.github.io/tags/ESRI/"/>
+  </entry>
+  
+  <entry>
+    <title>Python Logging to Console and External File</title>
+    <link href="https://chenyuzuoo.github.io/posts/22406/"/>
+    <id>https://chenyuzuoo.github.io/posts/22406/</id>
+    <published>2017-11-03T20:34:04.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
-      <category term="API" scheme="http://chenyuzuoo.github.io/tags/API/"/>
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Function&quot;&gt;&lt;a href=&quot;#Function&quot; class=&quot;headerlink&quot; title=&quot;Function&quot;&gt;&lt;/a&gt;Function&lt;/h3&gt;&lt;p&gt;Logging to multiple destinations with
+        
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
+    
     
   </entry>
   
   <entry>
     <title>Some Useful Packages in Latex</title>
-    <link href="http://chenyuzuoo.github.io/posts/e24a2734/"/>
-    <id>http://chenyuzuoo.github.io/posts/e24a2734/</id>
-    <published>2017-10-19T19:42:56.000Z</published>
-    <updated>2017-10-19T19:54:10.000Z</updated>
+    <link href="https://chenyuzuoo.github.io/posts/49491/"/>
+    <id>https://chenyuzuoo.github.io/posts/49491/</id>
+    <published>2017-10-19T19:53:16.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;ul&gt;
+      
+      
+        
+        
+          &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Color control&lt;/p&gt;
-&lt;figure class=&quot;highlight tex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
     
     </summary>
     
-      <category term="Latex" scheme="http://chenyuzuoo.github.io/categories/Latex/"/>
+      <category term="Latex" scheme="https://chenyuzuoo.github.io/categories/Latex/"/>
     
-    
-      <category term="dissertation" scheme="http://chenyuzuoo.github.io/tags/dissertation/"/>
     
   </entry>
   
   <entry>
-    <title>Extract Hour Field from Large Data Set under PostgreSQL</title>
-    <link href="http://chenyuzuoo.github.io/posts/80ef7ab9/"/>
-    <id>http://chenyuzuoo.github.io/posts/80ef7ab9/</id>
-    <published>2017-09-08T10:05:14.000Z</published>
-    <updated>2017-09-08T10:07:09.000Z</updated>
+    <title>Extract Hour Field from Text under Database(PostgreSQL)</title>
+    <link href="https://chenyuzuoo.github.io/posts/9892/"/>
+    <id>https://chenyuzuoo.github.io/posts/9892/</id>
+    <published>2017-09-08T19:30:28.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;What-to-Extract&quot;&gt;&lt;a href=&quot;#What-to-Extract&quot; class=&quot;headerlink&quot; title=&quot;What to Extract?&quot;&gt;&lt;/a&gt;What to Extract?&lt;/h3&gt;&lt;p&gt;We have a text f
+      
+      
+        
+        
+          &lt;h3 id=&quot;What-to-Extract&quot;&gt;&lt;a href=&quot;#What-to-Extract&quot; class=&quot;headerlink&quot; title=&quot;What to Extract?&quot;&gt;&lt;/a&gt;What to Extract?&lt;/h3&gt;&lt;p&gt;We have a text
+        
+      
     
     </summary>
     
-      <category term="Database" scheme="http://chenyuzuoo.github.io/categories/Database/"/>
+      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
     
     
-      <category term="timestamp" scheme="http://chenyuzuoo.github.io/tags/timestamp/"/>
-    
-      <category term="text" scheme="http://chenyuzuoo.github.io/tags/text/"/>
+      <category term="text processing" scheme="https://chenyuzuoo.github.io/tags/text-processing/"/>
     
   </entry>
   
   <entry>
-    <title>Including Chinese in Latex</title>
-    <link href="http://chenyuzuoo.github.io/posts/e55a26a8/"/>
-    <id>http://chenyuzuoo.github.io/posts/e55a26a8/</id>
-    <published>2017-08-17T18:53:39.000Z</published>
-    <updated>2017-08-17T18:55:12.000Z</updated>
+    <title>Including Chinese Charaters in Latex</title>
+    <link href="https://chenyuzuoo.github.io/posts/57760/"/>
+    <id>https://chenyuzuoo.github.io/posts/57760/</id>
+    <published>2017-08-17T20:36:13.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Building-System&quot;&gt;&lt;a href=&quot;#Building-System&quot; class=&quot;headerlink&quot; title=&quot;Building System&quot;&gt;&lt;/a&gt;Building System&lt;/h3&gt;&lt;p&gt;Using &lt;code&gt;xelate
+      
+      
+        
+        
+          &lt;h3 id=&quot;Building-System&quot;&gt;&lt;a href=&quot;#Building-System&quot; class=&quot;headerlink&quot; title=&quot;Building System&quot;&gt;&lt;/a&gt;Building System&lt;/h3&gt;&lt;p&gt;Using
+        
+      
     
     </summary>
     
-      <category term="Latex" scheme="http://chenyuzuoo.github.io/categories/Latex/"/>
+      <category term="Latex" scheme="https://chenyuzuoo.github.io/categories/Latex/"/>
     
     
-      <category term="latex" scheme="http://chenyuzuoo.github.io/tags/latex/"/>
-    
-      <category term="CJK" scheme="http://chenyuzuoo.github.io/tags/CJK/"/>
+      <category term="error shooting" scheme="https://chenyuzuoo.github.io/tags/error-shooting/"/>
     
   </entry>
   
   <entry>
-    <title>A Easy Way to Draw Study Area Map with R ggmap</title>
-    <link href="http://chenyuzuoo.github.io/posts/1fd47a61/"/>
-    <id>http://chenyuzuoo.github.io/posts/1fd47a61/</id>
-    <published>2017-08-10T10:12:33.000Z</published>
-    <updated>2017-08-10T11:32:18.000Z</updated>
+    <title>An Easy Way to Draw Study Area</title>
+    <link href="https://chenyuzuoo.github.io/posts/21415/"/>
+    <id>https://chenyuzuoo.github.io/posts/21415/</id>
+    <published>2017-08-10T18:10:50.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;There are many ways to draw a map.&lt;/p&gt;
+      
+      
+        
+        
+          &lt;p&gt;There are many ways to draw a map.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ArcGIS, QGIS&lt;br&gt;  With &lt;code&gt;ArcGIS&lt;/code&gt; and &lt;code&gt;QGIS&lt;/code&gt;, firstly we need a &lt;code
+&lt;li&gt;ArcGIS, QGIS&lt;br&gt;With &lt;code&gt;ArcGIS&lt;/code&gt; and &lt;code&gt;QGIS&lt;/code&gt;, firstly we need a
+        
+      
     
     </summary>
     
-      <category term="R" scheme="http://chenyuzuoo.github.io/categories/R/"/>
+      <category term="R" scheme="https://chenyuzuoo.github.io/categories/R/"/>
     
     
-      <category term="map" scheme="http://chenyuzuoo.github.io/tags/map/"/>
-    
-      <category term="google map" scheme="http://chenyuzuoo.github.io/tags/google-map/"/>
-    
-      <category term="Stamen Maps" scheme="http://chenyuzuoo.github.io/tags/Stamen-Maps/"/>
+      <category term="tool" scheme="https://chenyuzuoo.github.io/tags/tool/"/>
     
   </entry>
   
   <entry>
-    <title>How to Make Slides with CSS</title>
-    <link href="http://chenyuzuoo.github.io/posts/fe1c3d66/"/>
-    <id>http://chenyuzuoo.github.io/posts/fe1c3d66/</id>
-    <published>2017-07-08T14:21:24.000Z</published>
-    <updated>2017-07-08T19:41:02.000Z</updated>
+    <title>Text Comparision with Sublime</title>
+    <link href="https://chenyuzuoo.github.io/posts/1328/"/>
+    <id>https://chenyuzuoo.github.io/posts/1328/</id>
+    <published>2017-06-13T18:49:13.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://github.com/impress/impress.js&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;impress.js&lt;/a&gt; is a presentation framework based on the po
+      
+      
+        
+        
+          &lt;p&gt;Sublimerge is a sublime tool used for text comparision.&lt;/p&gt;
+&lt;h3 id=&quot;Installation&quot;&gt;&lt;a href=&quot;#Installation&quot; class=&quot;headerlink&quot;
+        
+      
     
     </summary>
     
-      <category term="CSS" scheme="http://chenyuzuoo.github.io/categories/CSS/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>How to Use Raphaël to Create Responsive SVG</title>
-    <link href="http://chenyuzuoo.github.io/posts/c99a877e/"/>
-    <id>http://chenyuzuoo.github.io/posts/c99a877e/</id>
-    <published>2017-06-25T09:27:58.000Z</published>
-    <updated>2017-07-08T16:07:21.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://dmitrybaranovskiy.github.io/raphael/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Raphaël&lt;/a&gt; is a small JavaScript library that shoul
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://chenyuzuoo.github.io/categories/JavaScript/"/>
+      <category term="Sublime" scheme="https://chenyuzuoo.github.io/categories/Sublime/"/>
     
     
   </entry>
   
   <entry>
     <title>Table Deduplication with Postgresql</title>
-    <link href="http://chenyuzuoo.github.io/posts/bbd039a3/"/>
-    <id>http://chenyuzuoo.github.io/posts/bbd039a3/</id>
-    <published>2017-06-13T21:28:46.000Z</published>
-    <updated>2017-07-06T14:30:47.000Z</updated>
+    <link href="https://chenyuzuoo.github.io/posts/28777/"/>
+    <id>https://chenyuzuoo.github.io/posts/28777/</id>
+    <published>2017-06-13T18:41:10.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;ctid&quot;&gt;&lt;a href=&quot;#ctid&quot; class=&quot;headerlink&quot; title=&quot;ctid&quot;&gt;&lt;/a&gt;&lt;code&gt;ctid&lt;/code&gt;&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Every &lt;code&gt;table&lt;/code&gt; has several
+      
+      
+        
+        
+          &lt;h3 id=&quot;ctid&quot;&gt;&lt;a href=&quot;#ctid&quot; class=&quot;headerlink&quot; title=&quot;ctid&quot;&gt;&lt;/a&gt;&lt;code&gt;ctid&lt;/code&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Every &lt;code&gt;table&lt;/code&gt; has
+        
+      
     
     </summary>
     
-      <category term="Database" scheme="http://chenyuzuoo.github.io/categories/Database/"/>
-    
-    
-      <category term="ctid" scheme="http://chenyuzuoo.github.io/tags/ctid/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Using Regular Expression to Filter Chinese Letters</title>
-    <link href="http://chenyuzuoo.github.io/posts/d6ea3390/"/>
-    <id>http://chenyuzuoo.github.io/posts/d6ea3390/</id>
-    <published>2017-06-09T13:26:37.000Z</published>
-    <updated>2017-06-09T14:55:02.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://docs.python.org/3/library/re.html&quot;&gt;&lt;code&gt;Regular expression&lt;/code&gt;&lt;/a&gt; is used for pattern matching. It’s a powerful and handy tool for text filteration.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-      <category term="segmentaion" scheme="http://chenyuzuoo.github.io/tags/segmentaion/"/>
-    
-      <category term="stopwords" scheme="http://chenyuzuoo.github.io/tags/stopwords/"/>
-    
-      <category term="text pattern" scheme="http://chenyuzuoo.github.io/tags/text-pattern/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python Encoding System</title>
-    <link href="http://chenyuzuoo.github.io/posts/ea1648ee/"/>
-    <id>http://chenyuzuoo.github.io/posts/ea1648ee/</id>
-    <published>2017-06-08T16:25:04.000Z</published>
-    <updated>2017-06-09T09:39:18.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;When dealing with Chinese characters, decoding disorder might be a normal problem, espatially, with cross platform development.&lt;/p&gt;
-&lt;p&gt;So
-    
-    </summary>
-    
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-      <category term="unicode" scheme="http://chenyuzuoo.github.io/tags/unicode/"/>
-    
-      <category term="utf-8" scheme="http://chenyuzuoo.github.io/tags/utf-8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Postgres Load Data and Query</title>
-    <link href="http://chenyuzuoo.github.io/posts/8b8a975e/"/>
-    <id>http://chenyuzuoo.github.io/posts/8b8a975e/</id>
-    <published>2017-06-02T14:15:41.000Z</published>
-    <updated>2017-07-06T12:27:32.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Load-data&quot;&gt;&lt;a href=&quot;#Load-data&quot; class=&quot;headerlink&quot; title=&quot;Load data&quot;&gt;&lt;/a&gt;Load data&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pudo/pgcsv&quot; ta
-    
-    </summary>
-    
-      <category term="Database" scheme="http://chenyuzuoo.github.io/categories/Database/"/>
+      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
     
     
   </entry>
   
   <entry>
-    <title>Postgres Cannot Connect to Server</title>
-    <link href="http://chenyuzuoo.github.io/posts/976bccc0/"/>
-    <id>http://chenyuzuoo.github.io/posts/976bccc0/</id>
-    <published>2017-06-02T12:08:39.000Z</published>
-    <updated>2017-06-02T12:24:32.000Z</updated>
+    <title>Using Regular Expression to Filter Chinese</title>
+    <link href="https://chenyuzuoo.github.io/posts/28001/"/>
+    <id>https://chenyuzuoo.github.io/posts/28001/</id>
+    <published>2017-06-09T20:42:03.000Z</published>
+    <updated>2018-03-30T20:33:06.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Environnment&quot;&gt;&lt;a href=&quot;#Environnment&quot; class=&quot;headerlink&quot; title=&quot;Environnment&quot;&gt;&lt;/a&gt;Environnment&lt;/h3&gt;&lt;p&gt;&lt;code&gt;macOS Sierra&lt;/code&gt;&lt;br&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.python.org/3/library/re.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;Regular expression&lt;/code&gt;&lt;/a&gt; is used for pattern matching. It’s a powerful and handy tool for text filteration.&lt;br&gt;
     
     </summary>
     
-      <category term="Database" scheme="http://chenyuzuoo.github.io/categories/Database/"/>
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hotkey for Vim</title>
-    <link href="http://chenyuzuoo.github.io/posts/9130abb8/"/>
-    <id>http://chenyuzuoo.github.io/posts/9130abb8/</id>
-    <published>2017-05-26T12:09:46.000Z</published>
-    <updated>2017-05-26T12:10:48.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Hot-keys&quot;&gt;&lt;a href=&quot;#Hot-keys&quot; class=&quot;headerlink&quot; title=&quot;Hot keys&quot;&gt;&lt;/a&gt;Hot keys&lt;/h3&gt;&lt;p&gt;Just some Vim essential notes for learning use
-    
-    </summary>
-    
-      <category term="Vim" scheme="http://chenyuzuoo.github.io/categories/Vim/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Convert Datetime to Timestamp with Python</title>
-    <link href="http://chenyuzuoo.github.io/posts/ecf5d190/"/>
-    <id>http://chenyuzuoo.github.io/posts/ecf5d190/</id>
-    <published>2017-05-25T20:55:40.000Z</published>
-    <updated>2017-05-25T20:56:46.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;What-is-Timestamp&quot;&gt;&lt;a href=&quot;#What-is-Timestamp&quot; class=&quot;headerlink&quot; title=&quot;What is Timestamp&quot;&gt;&lt;/a&gt;What is Timestamp&lt;/h3&gt;&lt;p&gt;The unix t
-    
-    </summary>
-    
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-      <category term="date" scheme="http://chenyuzuoo.github.io/tags/date/"/>
-    
-      <category term="time" scheme="http://chenyuzuoo.github.io/tags/time/"/>
-    
-      <category term="parse" scheme="http://chenyuzuoo.github.io/tags/parse/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Using Geojson to Draw a Map with Leaflet</title>
-    <link href="http://chenyuzuoo.github.io/posts/222f55dd/"/>
-    <id>http://chenyuzuoo.github.io/posts/222f55dd/</id>
-    <published>2017-05-22T21:02:04.000Z</published>
-    <updated>2017-05-23T12:28:55.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Why-Leaflet&quot;&gt;&lt;a href=&quot;#Why-Leaflet&quot; class=&quot;headerlink&quot; title=&quot;Why Leaflet&quot;&gt;&lt;/a&gt;Why Leaflet&lt;/h3&gt;&lt;p&gt;Leaflet is an open-source JavaScri
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://chenyuzuoo.github.io/categories/JavaScript/"/>
-    
-    
-      <category term="map" scheme="http://chenyuzuoo.github.io/tags/map/"/>
-    
-      <category term="clustering" scheme="http://chenyuzuoo.github.io/tags/clustering/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Text Comparision with Sublime</title>
-    <link href="http://chenyuzuoo.github.io/posts/b0cd495c/"/>
-    <id>http://chenyuzuoo.github.io/posts/b0cd495c/</id>
-    <published>2017-05-21T11:14:37.000Z</published>
-    <updated>2017-06-08T18:06:28.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Sublimerge is a sublime tool used for text comparision.&lt;/p&gt;
-&lt;h3 id=&quot;Installation&quot;&gt;&lt;a href=&quot;#Installation&quot; class=&quot;headerlink&quot; title=&quot;Insta
-    
-    </summary>
-    
-      <category term="Sublime" scheme="http://chenyuzuoo.github.io/categories/Sublime/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Convert CSV to Geojson in Python</title>
-    <link href="http://chenyuzuoo.github.io/posts/b9c48783/"/>
-    <id>http://chenyuzuoo.github.io/posts/b9c48783/</id>
-    <published>2017-05-20T21:42:54.000Z</published>
-    <updated>2017-05-22T08:58:08.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;What-is-Geojson&quot;&gt;&lt;a href=&quot;#What-is-Geojson&quot; class=&quot;headerlink&quot; title=&quot;What is Geojson&quot;&gt;&lt;/a&gt;What is Geojson&lt;/h3&gt;&lt;p&gt;According to wikip
-    
-    </summary>
-    
-      <category term="Python" scheme="http://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-      <category term="csv" scheme="http://chenyuzuoo.github.io/tags/csv/"/>
-    
-      <category term="geojson" scheme="http://chenyuzuoo.github.io/tags/geojson/"/>
     
   </entry>
   
