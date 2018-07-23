@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-07-09T13:27:46.497Z</updated>
+  <updated>2018-07-23T14:08:22.894Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Leaflet Overlay OnEachFeature</title>
+    <link href="https://chenyuzuoo.github.io/posts/38366/"/>
+    <id>https://chenyuzuoo.github.io/posts/38366/</id>
+    <published>2018-07-12T15:25:10.000Z</published>
+    <updated>2018-07-23T14:08:22.894Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;When you are displaying &lt;code&gt;geojson&lt;/code&gt; with &lt;code&gt;leaflet&lt;/code&gt; overlays, &lt;code&gt;onEachFeature&lt;/code&gt; is a function will be
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Control Leadlet Overlays</title>
@@ -498,24 +522,6 @@
     </summary>
     
       <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Using Regular Expression to Filter Chinese</title>
-    <link href="https://chenyuzuoo.github.io/posts/28001/"/>
-    <id>https://chenyuzuoo.github.io/posts/28001/</id>
-    <published>2017-06-09T20:42:03.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://docs.python.org/3/library/re.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;code&gt;Regular expression&lt;/code&gt;&lt;/a&gt; is used for pattern matching. It’s a powerful and handy tool for text filteration.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
     
     
   </entry>
