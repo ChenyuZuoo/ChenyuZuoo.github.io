@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-07-23T14:08:22.894Z</updated>
+  <updated>2018-10-19T15:17:04.571Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Extract Column from Tables</title>
+    <link href="https://chenyuzuoo.github.io/posts/39979/"/>
+    <id>https://chenyuzuoo.github.io/posts/39979/</id>
+    <published>2018-10-19T14:39:29.000Z</published>
+    <updated>2018-10-19T15:17:04.571Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Problem-description&quot;&gt;&lt;a href=&quot;#Problem-description&quot; class=&quot;headerlink&quot; title=&quot;Problem description&quot;&gt;&lt;/a&gt;Problem description&lt;/h3&gt;&lt;p&gt;I
+        
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
+    
+    
+      <category term="pandas" scheme="https://chenyuzuoo.github.io/tags/pandas/"/>
+    
+  </entry>
   
   <entry>
     <title>Leaflet Overlay OnEachFeature</title>
@@ -497,31 +523,6 @@
     </summary>
     
       <category term="Sublime" scheme="https://chenyuzuoo.github.io/categories/Sublime/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Table Deduplication with Postgresql</title>
-    <link href="https://chenyuzuoo.github.io/posts/28777/"/>
-    <id>https://chenyuzuoo.github.io/posts/28777/</id>
-    <published>2017-06-13T18:41:10.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;ctid&quot;&gt;&lt;a href=&quot;#ctid&quot; class=&quot;headerlink&quot; title=&quot;ctid&quot;&gt;&lt;/a&gt;&lt;code&gt;ctid&lt;/code&gt;&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;Every &lt;code&gt;table&lt;/code&gt; has
-        
-      
-    
-    </summary>
-    
-      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
     
     
   </entry>
