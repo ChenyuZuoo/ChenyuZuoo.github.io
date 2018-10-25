@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-10-19T15:17:04.571Z</updated>
+  <updated>2018-10-25T10:23:08.822Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to Draw Interactive Steamgraph in R</title>
+    <link href="https://chenyuzuoo.github.io/posts/17204/"/>
+    <id>https://chenyuzuoo.github.io/posts/17204/</id>
+    <published>2018-10-25T09:40:53.000Z</published>
+    <updated>2018-10-25T10:23:08.822Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Streamgraph is a type of stacked area graph which is displaced around a central axis, resulting in a flowing, organic shape.
+        
+      
+    
+    </summary>
+    
+      <category term="R" scheme="https://chenyuzuoo.github.io/categories/R/"/>
+    
+    
+      <category term="data visualization" scheme="https://chenyuzuoo.github.io/tags/data-visualization/"/>
+    
+  </entry>
   
   <entry>
     <title>Extract Column from Tables</title>
@@ -499,31 +525,6 @@
     
     
       <category term="tool" scheme="https://chenyuzuoo.github.io/tags/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Text Comparision with Sublime</title>
-    <link href="https://chenyuzuoo.github.io/posts/1328/"/>
-    <id>https://chenyuzuoo.github.io/posts/1328/</id>
-    <published>2017-06-13T18:49:13.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Sublimerge is a sublime tool used for text comparision.&lt;/p&gt;
-&lt;h3 id=&quot;Installation&quot;&gt;&lt;a href=&quot;#Installation&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Sublime" scheme="https://chenyuzuoo.github.io/categories/Sublime/"/>
-    
     
   </entry>
   
