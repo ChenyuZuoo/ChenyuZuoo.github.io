@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-10-25T10:23:08.822Z</updated>
+  <updated>2018-11-05T20:23:04.153Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Multiple Linear Regression in R</title>
+    <link href="https://chenyuzuoo.github.io/posts/31988/"/>
+    <id>https://chenyuzuoo.github.io/posts/31988/</id>
+    <published>2018-11-02T19:59:02.000Z</published>
+    <updated>2018-11-05T20:23:04.153Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Math-model&quot;&gt;&lt;a href=&quot;#Math-model&quot; class=&quot;headerlink&quot; title=&quot;Math model&quot;&gt;&lt;/a&gt;Math model&lt;/h3&gt;&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="R" scheme="https://chenyuzuoo.github.io/categories/R/"/>
+    
+    
+      <category term="model" scheme="https://chenyuzuoo.github.io/tags/model/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spatial polygon area calculation by another polygon layer</title>
+    <link href="https://chenyuzuoo.github.io/posts/30557/"/>
+    <id>https://chenyuzuoo.github.io/posts/30557/</id>
+    <published>2018-11-01T19:28:03.000Z</published>
+    <updated>2018-11-05T19:57:48.345Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Topic-description&quot;&gt;&lt;a href=&quot;#Topic-description&quot; class=&quot;headerlink&quot; title=&quot;Topic description&quot;&gt;&lt;/a&gt;Topic description&lt;/h3&gt;&lt;p&gt;I have
+        
+      
+    
+    </summary>
+    
+      <category term="ArcGIS" scheme="https://chenyuzuoo.github.io/categories/ArcGIS/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>How to Draw Interactive Steamgraph in R</title>
@@ -471,60 +521,6 @@
     
     
       <category term="text processing" scheme="https://chenyuzuoo.github.io/tags/text-processing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Including Chinese Charaters in Latex</title>
-    <link href="https://chenyuzuoo.github.io/posts/57760/"/>
-    <id>https://chenyuzuoo.github.io/posts/57760/</id>
-    <published>2017-08-17T20:36:13.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;Building-System&quot;&gt;&lt;a href=&quot;#Building-System&quot; class=&quot;headerlink&quot; title=&quot;Building System&quot;&gt;&lt;/a&gt;Building System&lt;/h3&gt;&lt;p&gt;Using
-        
-      
-    
-    </summary>
-    
-      <category term="Latex" scheme="https://chenyuzuoo.github.io/categories/Latex/"/>
-    
-    
-      <category term="error shooting" scheme="https://chenyuzuoo.github.io/tags/error-shooting/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>An Easy Way to Draw Study Area</title>
-    <link href="https://chenyuzuoo.github.io/posts/21415/"/>
-    <id>https://chenyuzuoo.github.io/posts/21415/</id>
-    <published>2017-08-10T18:10:50.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;There are many ways to draw a map.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ArcGIS, QGIS&lt;br&gt;With &lt;code&gt;ArcGIS&lt;/code&gt; and &lt;code&gt;QGIS&lt;/code&gt;, firstly we need a
-        
-      
-    
-    </summary>
-    
-      <category term="R" scheme="https://chenyuzuoo.github.io/categories/R/"/>
-    
-    
-      <category term="tool" scheme="https://chenyuzuoo.github.io/tags/tool/"/>
     
   </entry>
   
