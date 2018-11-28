@@ -4,6 +4,24 @@
 
     
   <url>
+    <loc>https://chenyuzuoo.github.io/posts/18707/</loc>
+    <lastmod>2018-11-27T15:33:54.638Z</lastmod>
+    <data>
+        <display>
+        <title>Install Geopandas</title>
+        <pubTime>2018-11-27T15:10:45.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://chenyuzuoo.github.io/posts/21415/</loc>
     <lastmod>2018-11-26T12:43:40.563Z</lastmod>
     <data>
@@ -326,17 +344,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/63272/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/46542/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>Data Slice with R</title>
-        <pubTime>2015-10-29T18:33:03.000Z</pubTime>
+        <title>搭建Hadoop环境</title>
+        <pubTime>2016-06-18T11:15:15.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="R" url="https://chenyuzuoo.github.io/categories/R/"/>
+              <breadCrumb title="Hadoop" url="https://chenyuzuoo.github.io/categories/Hadoop/"/>
           
         </display>
     </data>
@@ -344,17 +362,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/28777/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/64753/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>Table Deduplication with Postgresql</title>
-        <pubTime>2017-06-13T18:41:10.000Z</pubTime>
+        <title>Style Navigation Bar with CSS</title>
+        <pubTime>2016-03-23T19:30:16.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="Database" url="https://chenyuzuoo.github.io/categories/Database/"/>
+              <breadCrumb title="CSS" url="https://chenyuzuoo.github.io/categories/CSS/"/>
           
         </display>
     </data>
@@ -362,55 +380,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/52949/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/46987/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>「译」JavaScript正则表达式应用(Eloquent JavaScript 第九章)</title>
-        <pubTime>2017-03-14T21:15:51.000Z</pubTime>
+        <title>URL和WMS</title>
+        <pubTime>2016-05-26T20:19:12.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/9892/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Extract Hour Field from Text under Database(PostgreSQL)</title>
-        <pubTime>2017-09-08T19:30:28.000Z</pubTime>
-        
-        <tag>text processing</tag>
-         
-         
-           
-             
-              <breadCrumb title="Database" url="https://chenyuzuoo.github.io/categories/Database/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/41737/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Using Geojson to Draw a Map</title>
-        <pubTime>2017-05-22T20:37:19.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+              <breadCrumb title="Network" url="https://chenyuzuoo.github.io/categories/Network/"/>
           
         </display>
     </data>
@@ -426,26 +406,6 @@
         <pubTime>2017-11-06T20:40:13.000Z</pubTime>
         
         <tag>error shooting</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/16861/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>3D Convex Hull</title>
-        <pubTime>2017-03-02T18:53:39.000Z</pubTime>
-        
-        <tag>algorithm</tag>
          
          
            
@@ -478,181 +438,14 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/13963/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/9892/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>Hot Keys for Vim</title>
-        <pubTime>2017-05-26T20:24:06.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/40441/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Convert Datetime To Timestamp in Python</title>
-        <pubTime>2017-05-25T19:58:08.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/32762/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo3.0以上版本git配置错误处理Mac</title>
-        <pubTime>2017-01-21T21:26:41.000Z</pubTime>
-        
-        <tag>error shooting</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="https://chenyuzuoo.github.io/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/21614/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>How to Use Raphaël to Create Responsive SVG</title>
-        <pubTime>2017-06-05T20:22:24.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/49020/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>How to Find Substrings in Python</title>
-        <pubTime>2017-05-16T20:40:47.000Z</pubTime>
+        <title>Extract Hour Field from Text under Database(PostgreSQL)</title>
+        <pubTime>2017-09-08T19:30:28.000Z</pubTime>
         
         <tag>text processing</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/28467/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>「译」JavaScript高阶函数(Eloquent JavaScript 第五章)</title>
-        <pubTime>2017-01-26T21:15:55.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/43236/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>How to Make Slides with CSS</title>
-        <pubTime>2017-06-08T18:13:26.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="CSS" url="https://chenyuzuoo.github.io/categories/CSS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/12396/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Mac下tomcat的安装与配置</title>
-        <pubTime>2017-02-07T21:54:03.000Z</pubTime>
-        
-        <tag>installation</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://chenyuzuoo.github.io/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/23246/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Javac无法编译Servlet</title>
-        <pubTime>2017-02-07T21:42:24.000Z</pubTime>
-        
-        <tag>error shooting</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://chenyuzuoo.github.io/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/63404/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>How to Install PostgreSQL on a MAC</title>
-        <pubTime>2017-05-14T20:50:18.000Z</pubTime>
-        
-        <tag>installation</tag>
          
          
            
@@ -685,6 +478,117 @@
 
     
   <url>
+    <loc>https://chenyuzuoo.github.io/posts/21614/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to Use Raphaël to Create Responsive SVG</title>
+        <pubTime>2017-06-05T20:22:24.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/32762/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo3.0以上版本git配置错误处理Mac</title>
+        <pubTime>2017-01-21T21:26:41.000Z</pubTime>
+        
+        <tag>error shooting</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="https://chenyuzuoo.github.io/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/13963/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hot Keys for Vim</title>
+        <pubTime>2017-05-26T20:24:06.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/49020/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to Find Substrings in Python</title>
+        <pubTime>2017-05-16T20:40:47.000Z</pubTime>
+        
+        <tag>text processing</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/43236/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to Make Slides with CSS</title>
+        <pubTime>2017-06-08T18:13:26.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="CSS" url="https://chenyuzuoo.github.io/categories/CSS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/63404/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to Install PostgreSQL on a MAC</title>
+        <pubTime>2017-05-14T20:50:18.000Z</pubTime>
+        
+        <tag>installation</tag>
+         
+         
+           
+             
+              <breadCrumb title="Database" url="https://chenyuzuoo.github.io/categories/Database/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://chenyuzuoo.github.io/posts/24857/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
@@ -696,6 +600,140 @@
            
              
               <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/12396/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Mac下tomcat的安装与配置</title>
+        <pubTime>2017-02-07T21:54:03.000Z</pubTime>
+        
+        <tag>installation</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://chenyuzuoo.github.io/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/16861/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>3D Convex Hull</title>
+        <pubTime>2017-03-02T18:53:39.000Z</pubTime>
+        
+        <tag>algorithm</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/23246/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Javac无法编译Servlet</title>
+        <pubTime>2017-02-07T21:42:24.000Z</pubTime>
+        
+        <tag>error shooting</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://chenyuzuoo.github.io/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/31550/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Andriod Bottom Navigator (安卓底部导航栏)</title>
+        <pubTime>2017-01-20T19:28:24.000Z</pubTime>
+        
+        <tag>design</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://chenyuzuoo.github.io/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/34723/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>安卓显示单位详解(dpi, px, dip, dp, sp)</title>
+        <pubTime>2016-11-23T22:22:07.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android" url="https://chenyuzuoo.github.io/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/858/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>深入理解Android Activity生命周期</title>
+        <pubTime>2017-01-06T12:20:21.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android" url="https://chenyuzuoo.github.io/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/36995/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>实例讲解在安卓app中加入可交互地图</title>
+        <pubTime>2017-01-11T12:10:29.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android" url="https://chenyuzuoo.github.io/categories/Android/"/>
           
         </display>
     </data>
@@ -723,6 +761,24 @@
 
     
   <url>
+    <loc>https://chenyuzuoo.github.io/posts/19418/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python Load Big File into MySQL</title>
+        <pubTime>2016-04-22T19:26:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Database" url="https://chenyuzuoo.github.io/categories/Database/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://chenyuzuoo.github.io/posts/5297/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
@@ -741,30 +797,12 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/36995/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/50024/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>实例讲解在安卓app中加入可交互地图</title>
-        <pubTime>2017-01-11T12:10:29.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android" url="https://chenyuzuoo.github.io/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/28001/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Using Regular Expression to Filter Chinese</title>
-        <pubTime>2017-06-09T20:42:03.000Z</pubTime>
+        <title>Python Encoding System</title>
+        <pubTime>2017-06-08T19:05:23.000Z</pubTime>
         
          
            
@@ -795,17 +833,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/46987/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/31044/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>URL和WMS</title>
-        <pubTime>2016-05-26T20:19:12.000Z</pubTime>
+        <title>Python Nested Class</title>
+        <pubTime>2017-11-29T20:40:58.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="Network" url="https://chenyuzuoo.github.io/categories/Network/"/>
+              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
           
         </display>
     </data>
@@ -831,35 +869,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/50024/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/40228/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>Python Encoding System</title>
-        <pubTime>2017-06-08T19:05:23.000Z</pubTime>
+        <title>个人博客搜索引擎优化</title>
+        <pubTime>2017-01-31T21:52:10.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/19418/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python Load Big File into MySQL</title>
-        <pubTime>2016-04-22T19:26:00.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Database" url="https://chenyuzuoo.github.io/categories/Database/"/>
+              <breadCrumb title="Network" url="https://chenyuzuoo.github.io/categories/Network/"/>
           
         </display>
     </data>
@@ -882,17 +902,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/858/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/7862/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>深入理解Android Activity生命周期</title>
-        <pubTime>2017-01-06T12:20:21.000Z</pubTime>
+        <title>从前端配色问题的解决方案到一通胡扯</title>
+        <pubTime>2017-01-24T21:11:24.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="Android" url="https://chenyuzuoo.github.io/categories/Android/"/>
+              <breadCrumb title="Theory" url="https://chenyuzuoo.github.io/categories/Theory/"/>
           
         </display>
     </data>
@@ -900,122 +920,12 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/31550/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/28001/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>Andriod Bottom Navigator (安卓底部导航栏)</title>
-        <pubTime>2017-01-20T19:28:24.000Z</pubTime>
-        
-        <tag>design</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://chenyuzuoo.github.io/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/1328/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Text Comparision with Sublime</title>
-        <pubTime>2017-06-13T18:49:13.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Sublime" url="https://chenyuzuoo.github.io/categories/Sublime/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/49491/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Some Useful Packages in Latex</title>
-        <pubTime>2017-10-19T19:53:16.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Latex" url="https://chenyuzuoo.github.io/categories/Latex/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/34723/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>安卓显示单位详解(dpi, px, dip, dp, sp)</title>
-        <pubTime>2016-11-23T22:22:07.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android" url="https://chenyuzuoo.github.io/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/40228/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>个人博客搜索引擎优化</title>
-        <pubTime>2017-01-31T21:52:10.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Network" url="https://chenyuzuoo.github.io/categories/Network/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/46542/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>搭建Hadoop环境</title>
-        <pubTime>2016-06-18T11:15:15.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Hadoop" url="https://chenyuzuoo.github.io/categories/Hadoop/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://chenyuzuoo.github.io/posts/31044/</loc>
-    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python Nested Class</title>
-        <pubTime>2017-11-29T20:40:58.000Z</pubTime>
+        <title>Using Regular Expression to Filter Chinese</title>
+        <pubTime>2017-06-09T20:42:03.000Z</pubTime>
         
          
            
@@ -1046,17 +956,17 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/64753/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/49491/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>Style Navigation Bar with CSS</title>
-        <pubTime>2016-03-23T19:30:16.000Z</pubTime>
+        <title>Some Useful Packages in Latex</title>
+        <pubTime>2017-10-19T19:53:16.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="CSS" url="https://chenyuzuoo.github.io/categories/CSS/"/>
+              <breadCrumb title="Latex" url="https://chenyuzuoo.github.io/categories/Latex/"/>
           
         </display>
     </data>
@@ -1064,17 +974,53 @@
 
     
   <url>
-    <loc>https://chenyuzuoo.github.io/posts/7862/</loc>
+    <loc>https://chenyuzuoo.github.io/posts/63272/</loc>
     <lastmod>2018-03-30T20:33:06.000Z</lastmod>
     <data>
         <display>
-        <title>从前端配色问题的解决方案到一通胡扯</title>
-        <pubTime>2017-01-24T21:11:24.000Z</pubTime>
+        <title>Data Slice with R</title>
+        <pubTime>2015-10-29T18:33:03.000Z</pubTime>
         
          
            
              
-              <breadCrumb title="Theory" url="https://chenyuzuoo.github.io/categories/Theory/"/>
+              <breadCrumb title="R" url="https://chenyuzuoo.github.io/categories/R/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/1328/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Text Comparision with Sublime</title>
+        <pubTime>2017-06-13T18:49:13.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Sublime" url="https://chenyuzuoo.github.io/categories/Sublime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/28467/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>「译」JavaScript高阶函数(Eloquent JavaScript 第五章)</title>
+        <pubTime>2017-01-26T21:15:55.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
           
         </display>
     </data>
@@ -1093,6 +1039,78 @@
            
              
               <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/52949/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>「译」JavaScript正则表达式应用(Eloquent JavaScript 第九章)</title>
+        <pubTime>2017-03-14T21:15:51.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/28777/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Table Deduplication with Postgresql</title>
+        <pubTime>2017-06-13T18:41:10.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Database" url="https://chenyuzuoo.github.io/categories/Database/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/40441/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Convert Datetime To Timestamp in Python</title>
+        <pubTime>2017-05-25T19:58:08.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="https://chenyuzuoo.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://chenyuzuoo.github.io/posts/41737/</loc>
+    <lastmod>2018-03-30T20:33:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Using Geojson to Draw a Map</title>
+        <pubTime>2017-05-22T20:37:19.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="JavaScript" url="https://chenyuzuoo.github.io/categories/JavaScript/"/>
           
         </display>
     </data>

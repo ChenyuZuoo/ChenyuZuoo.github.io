@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-11-05T20:23:04.153Z</updated>
+  <updated>2018-11-27T15:33:54.638Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Install Geopandas</title>
+    <link href="https://chenyuzuoo.github.io/posts/18707/"/>
+    <id>https://chenyuzuoo.github.io/posts/18707/</id>
+    <published>2018-11-27T15:10:45.000Z</published>
+    <updated>2018-11-27T15:33:54.638Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;GeoPandas&lt;/code&gt; provides extension for &lt;code&gt;pandas&lt;/code&gt;. It makes geo-data processing and geo-visualization much easier.
+        
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Multiple Linear Regression in R</title>
@@ -495,32 +519,6 @@
     
       <category term="Latex" scheme="https://chenyuzuoo.github.io/categories/Latex/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Extract Hour Field from Text under Database(PostgreSQL)</title>
-    <link href="https://chenyuzuoo.github.io/posts/9892/"/>
-    <id>https://chenyuzuoo.github.io/posts/9892/</id>
-    <published>2017-09-08T19:30:28.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;What-to-Extract&quot;&gt;&lt;a href=&quot;#What-to-Extract&quot; class=&quot;headerlink&quot; title=&quot;What to Extract?&quot;&gt;&lt;/a&gt;What to Extract?&lt;/h3&gt;&lt;p&gt;We have a text
-        
-      
-    
-    </summary>
-    
-      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
-    
-    
-      <category term="text processing" scheme="https://chenyuzuoo.github.io/tags/text-processing/"/>
     
   </entry>
   
