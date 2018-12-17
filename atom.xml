@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-11-27T15:33:54.638Z</updated>
+  <updated>2018-12-17T17:26:12.562Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Install Geopandas</title>
-    <link href="https://chenyuzuoo.github.io/posts/18707/"/>
-    <id>https://chenyuzuoo.github.io/posts/18707/</id>
-    <published>2018-11-27T15:10:45.000Z</published>
-    <updated>2018-11-27T15:33:54.638Z</updated>
+    <title>Load External Geojson to Leaflet</title>
+    <link href="https://chenyuzuoo.github.io/posts/35618/"/>
+    <id>https://chenyuzuoo.github.io/posts/35618/</id>
+    <published>2018-12-17T16:54:15.000Z</published>
+    <updated>2018-12-17T17:26:12.562Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,33 @@
       
         
         
-          &lt;p&gt;&lt;code&gt;GeoPandas&lt;/code&gt; provides extension for &lt;code&gt;pandas&lt;/code&gt;. It makes geo-data processing and geo-visualization much easier.
+          &lt;p&gt;Geojson benefits the geo-data visualzing. Here we introduce two methods of loading external &lt;code&gt;geojson&lt;/code&gt; to
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+    
+    
+      <category term="web mapping" scheme="https://chenyuzuoo.github.io/tags/web-mapping/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Install Geopandas</title>
+    <link href="https://chenyuzuoo.github.io/posts/18707/"/>
+    <id>https://chenyuzuoo.github.io/posts/18707/</id>
+    <published>2018-11-27T15:10:45.000Z</published>
+    <updated>2018-11-27T15:55:44.239Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;GeoPandas&lt;/code&gt; provides extension to &lt;code&gt;pandas&lt;/code&gt;. It makes geo-data processing and geo-visualization much easier.
         
       
     
@@ -310,9 +336,9 @@
       <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
     
     
-      <category term="Network" scheme="https://chenyuzuoo.github.io/tags/Network/"/>
-    
       <category term="web mapping" scheme="https://chenyuzuoo.github.io/tags/web-mapping/"/>
+    
+      <category term="Network" scheme="https://chenyuzuoo.github.io/tags/Network/"/>
     
   </entry>
   
@@ -492,32 +518,6 @@
     </summary>
     
       <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Some Useful Packages in Latex</title>
-    <link href="https://chenyuzuoo.github.io/posts/49491/"/>
-    <id>https://chenyuzuoo.github.io/posts/49491/</id>
-    <published>2017-10-19T19:53:16.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Color control&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-      <category term="Latex" scheme="https://chenyuzuoo.github.io/categories/Latex/"/>
     
     
   </entry>
