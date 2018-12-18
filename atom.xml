@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-12-17T17:26:12.562Z</updated>
+  <updated>2018-12-18T09:27:56.299Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://chenyuzuoo.github.io/posts/35618/"/>
     <id>https://chenyuzuoo.github.io/posts/35618/</id>
     <published>2018-12-17T16:54:15.000Z</published>
-    <updated>2018-12-17T17:26:12.562Z</updated>
+    <updated>2018-12-18T09:27:56.299Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Geojson benefits the geo-data visualzing. Here we introduce two methods of loading external &lt;code&gt;geojson&lt;/code&gt; to
-        
-      
+      &lt;p&gt;Geojson benefits the geo-data visualzing. Here we introduce two methods of loading external &lt;code&gt;geojson&lt;/code&gt; to &lt;code&gt;Leaflet&lt;/code&gt;.
     
     </summary>
     
