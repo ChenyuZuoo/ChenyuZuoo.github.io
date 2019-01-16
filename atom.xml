@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2018-12-18T09:27:56.299Z</updated>
+  <updated>2019-01-16T10:28:37.317Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Convert Two-dimensional Table to One-dimensional Table</title>
+    <link href="https://chenyuzuoo.github.io/posts/23844/"/>
+    <id>https://chenyuzuoo.github.io/posts/23844/</id>
+    <published>2019-01-16T10:11:18.000Z</published>
+    <updated>2019-01-16T10:28:37.317Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The test data is 2D data:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2Dtable.png&quot; alt=&quot;Test data&quot;&gt;&lt;/p&gt;
+&lt;p&gt;To convert two-dimensional table to
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+    
+    
+      <category term="snippet" scheme="https://chenyuzuoo.github.io/tags/snippet/"/>
+    
+  </entry>
   
   <entry>
     <title>Load External Geojson to Leaflet</title>
@@ -489,30 +517,6 @@
     
     
       <category term="error shooting" scheme="https://chenyuzuoo.github.io/tags/error-shooting/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python Logging to Console and External File</title>
-    <link href="https://chenyuzuoo.github.io/posts/22406/"/>
-    <id>https://chenyuzuoo.github.io/posts/22406/</id>
-    <published>2017-11-03T20:34:04.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;Function&quot;&gt;&lt;a href=&quot;#Function&quot; class=&quot;headerlink&quot; title=&quot;Function&quot;&gt;&lt;/a&gt;Function&lt;/h3&gt;&lt;p&gt;Logging to multiple destinations with
-        
-      
-    
-    </summary>
-    
-      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
-    
     
   </entry>
   
