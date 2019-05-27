@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2019-01-16T10:28:37.317Z</updated>
+  <updated>2019-05-27T12:22:01.981Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Latex Footnote in Figure Caption</title>
+    <link href="https://chenyuzuoo.github.io/posts/25922/"/>
+    <id>https://chenyuzuoo.github.io/posts/25922/</id>
+    <published>2019-05-27T12:09:36.000Z</published>
+    <updated>2019-05-27T12:22:01.981Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;To add a footnote in a figure caption:&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="Latex" scheme="https://chenyuzuoo.github.io/categories/Latex/"/>
+    
+    
+      <category term="typesetting" scheme="https://chenyuzuoo.github.io/tags/typesetting/"/>
+    
+  </entry>
   
   <entry>
     <title>Convert Two-dimensional Table to One-dimensional Table</title>
@@ -491,32 +518,6 @@
     
       <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>GIS Object Has No Attribute &#39;admin&#39;</title>
-    <link href="https://chenyuzuoo.github.io/posts/8573/"/>
-    <id>https://chenyuzuoo.github.io/posts/8573/</id>
-    <published>2017-11-06T20:40:13.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;ArcGIS-Python-API&quot;&gt;&lt;a href=&quot;#ArcGIS-Python-API&quot; class=&quot;headerlink&quot; title=&quot;ArcGIS Python API&quot;&gt;&lt;/a&gt;ArcGIS Python
-        
-      
-    
-    </summary>
-    
-      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-      <category term="error shooting" scheme="https://chenyuzuoo.github.io/tags/error-shooting/"/>
     
   </entry>
   

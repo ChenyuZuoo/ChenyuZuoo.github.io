@@ -3,6 +3,26 @@
   
     
     <entry>
+      <title>Latex Footnote in Figure Caption</title>
+      <link href="/posts/25922/"/>
+      <content type="html"><![CDATA[<p>To add a footnote in a figure caption:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;figure&#125;[!ht]</span><br><span class="line">    \centering</span><br><span class="line">    \includegraphics[width=3in]&#123;images/radar2.png&#125;</span><br><span class="line">    \caption&#123;A radar chart\protect\footnotemark ~shows overview  of the advantages and disadvantages of map-based dashboard and storytelling map. &#125;</span><br><span class="line">    \label&#123;fig:comparison2&#125;</span><br><span class="line">\end&#123;figure&#125;</span><br><span class="line">\footnotetext&#123;The style referred to:  https://www.visualcinnamon.com/2015/10/different-look-d3-radar-chart.html&#125;</span><br></pre></td></tr></table></figure><p>Generated PDF:<br><img src="/images/footnote.png" alt="A Footnote in Figure Caption"></p><hr><p>References:</p><p><a href="https://tex.stackexchange.com/questions/452206/footnote-in-caption-and-in-the-same-page-of-caption" target="_blank" rel="noopener">Footnote in caption and in the same page of caption</a></p><p><a href="https://tex.stackexchange.com/questions/228973/argument-of-captionydblarg-has-an-extra" target="_blank" rel="noopener">Argument of \caption@ydblarg has an extra }</a></p>]]></content>
+      
+      <categories>
+          
+          <category> Latex </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> typesetting </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Convert Two-dimensional Table to One-dimensional Table</title>
       <link href="/posts/23844/"/>
       <content type="html"><![CDATA[<p>The test data is 2D data:</p><p><img src="/images/2Dtable.png" alt="Test data"></p><p>To convert two-dimensional table to one-dimensional table in JavaScript:</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">data_1D = [];</span><br><span class="line"></span><br><span class="line">data_2D.filter(<span class="function"><span class="keyword">function</span>(<span class="params">d</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> d.code &amp;&amp; d.code!=<span class="string">'SOF46'</span>;  <span class="comment">//skip the row "SOF46"</span></span><br><span class="line">&#125;).forEach(<span class="function"><span class="keyword">function</span>(<span class="params">d</span>) </span>&#123;</span><br><span class="line">  d.sum = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">var</span> p <span class="keyword">in</span> d)</span><br><span class="line">    <span class="keyword">if</span> (p &amp;&amp; p!=<span class="string">"code"</span> &amp;&amp; p!=<span class="string">"sum"</span>) &#123;</span><br><span class="line">      dataP.push(&#123;<span class="string">'code'</span>:d.code,<span class="string">'type'</span>:p,<span class="string">'value'</span>:+d[p]&#125;);</span><br><span class="line">      d.sum+=+d[p];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><hr><p>Reference: <a href="https://github.com/yurukov/dc.leaflet.js" target="_blank" rel="noopener">dc.leaflet.js</a></p>]]></content>
