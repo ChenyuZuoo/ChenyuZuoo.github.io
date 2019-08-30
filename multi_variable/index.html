@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Economic Dashbaord</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="css/leaflet.css">
+
+        <script src="js/d3.js"></script>
+
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <script src="js/L.Map.Sync.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet" href="css/main.css">
+        <script src="data/county_boundary.js"></script>
+        <script src="data/Jiangsu_simplified.js"></script>
+        <script src="data/Jiangsu_simplified_topojson.js"></script>
+    </head>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-2 sidenav"></div>
+        <div class="col-sm-7 text-left">
+            <h1>Socio-economic Dasdhboard of Jiangsu 2015</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <hr class="line-sperator">
+            <!--<p>Lorem ipsum...</p>-->
+        </div>
+
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <p><a href="#">Link</a></p>
+                <p><a href="#">Link</a></p>
+                <p><a href="#">Link</a></p>
+            </div>
+            <div class="col-sm-7 text-left">
+
+               <div class="row">
+                   <div class="col-sm-4">
+                       <div class="card" >
+                           <div class="card-header">
+                               <h4>Enterprise</h4>
+                           </div>
+
+                           <div class="map" id="Enterprise_map"></div>
+                       </div>
+                   </div>
+
+                   <div class="col-sm-4">
+                       <div class="card" >
+                           <div class="card-header">
+                               <h4>GDP</h4>
+                           </div>
+
+                           <div class="map" id="GDP_map"></div>
+                       </div>
+                   </div>
+
+                   <div class="col-sm-4">
+                       <div class="card" >
+                           <div class="card-header">
+                               <h4>Population</h4>
+                           </div>
+
+                           <div class="map" id="Pop_map"></div>
+                       </div>
+                   </div>
+               </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card" >
+                            <div class="card-header">
+                                <h4>Logistic</h4>
+                            </div>
+
+                            <div class="map" id="Logistic_map"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" >
+                            <div class="card-header">
+                                <h4>Communication</h4>
+                            </div>
+
+                            <div class="map" id="Communication_map"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" >
+                            <div class="card-header">
+                                <h4>Technology</h4>
+                            </div>
+
+                            <div class="map" id="Tech_map"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-sm-3">
+                <div class="row raw_data">
+                    <!-- head of the table -->
+                    <div id="Type" class="col-md-4 card-header" align="left"><b>Data type</b></div>
+                    <div id="county_name" class="col-md-4 card-header" align="left"><b>County</b></div>
+                    <div id="city_name" class="col-md-4 card-header" align="left"><b>City</b></div>
+                    <div class="col-md-12" align="left">-</div>
+                    <!-- first row of the table -->
+                    <div class="col-md-4" align="left">All enterprise</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_a1" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_a1_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- second row of the table -->
+                    <div class="col-md-4" align="left">above designated Size</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_a2" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_a2_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-12" align="left">-</div>
+                    <!--third row of the table -->
+                    <div class="col-md-4" align="left">GDP per county</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b1" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b1_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">GDP per capita</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b2" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b2_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Primary industry</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b3" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b3_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Secondary industry</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b4" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b4_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Tertiary industry</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b5" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_b5_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-12" align="left">-</div>
+                    <!--third row of the table -->
+                    <div class="col-md-4" align="left">Population per county</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c1" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c1_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Population per km2</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c2" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c2_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Employee</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c3" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c3_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Citizen disposable income</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c4" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c4_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Citizen consumption</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c5" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c5_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Engel coefficient</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c6" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_c6_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-12" align="left">-</div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Road length</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d1" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d1_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Road passenger</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d2" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d2_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Road cargo</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d3" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d3_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Car parc</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d4" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_d4_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-12" align="left">-</div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Communication cost</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e1" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e1_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Phone user</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e2" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e2_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Telephone user</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e3" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e3_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Internet user</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e4" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_e4_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-12" align="left">-</div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Patent applications</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f1" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f1_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Authorized patent</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f2" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f2_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Public library</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f3" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f3_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <!-- forth row of the table -->
+                    <div class="col-md-4" align="left">Public library book</div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f4" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                    <div class="col-md-3 progress" align="left"><div id="table_f4_city" class='progress-bar' style='width: 0%' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100'>-</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
