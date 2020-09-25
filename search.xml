@@ -3,6 +3,26 @@
   
     
     <entry>
+      <title>Show Changes in Latex</title>
+      <link href="/posts/33608/"/>
+      <content type="html"><![CDATA[<p>It is not necessary to manually mark each change of the latex file. One can edit directly in the tex file, using <code>latexdiff</code> to mark the changes texts. One drawback is that when changing the titles of the figures and tables, the changes would note be properly marked. </p><p>The command line for generating the marked tex is:</p><pre><code>latexdiff origin.tex modify.tex &gt; diff.tex</code></pre><p><code>origin.tex</code> is the original tex file. <code>modify.tex</code> is the changed tex file. <code>diff.tex</code> is the tex which could show the changes of the texts.</p>]]></content>
+      
+      <categories>
+          
+          <category> Latex </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> writing, tool </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Latex Footnote in Figure Caption</title>
       <link href="/posts/25922/"/>
       <content type="html"><![CDATA[<p>To add a footnote in a figure caption:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;figure&#125;[!ht]</span><br><span class="line">    \centering</span><br><span class="line">    \includegraphics[width=3in]&#123;images/radar2.png&#125;</span><br><span class="line">    \caption&#123;A radar chart\protect\footnotemark ~shows overview  of the advantages and disadvantages of map-based dashboard and storytelling map. &#125;</span><br><span class="line">    \label&#123;fig:comparison2&#125;</span><br><span class="line">\end&#123;figure&#125;</span><br><span class="line">\footnotetext&#123;The style referred to:  https://www.visualcinnamon.com/2015/10/different-look-d3-radar-chart.html&#125;</span><br></pre></td></tr></table></figure><p>Generated PDF:<br><img src="/images/footnote.png" alt="A Footnote in Figure Caption"></p><hr><p>References:</p><p><a href="https://tex.stackexchange.com/questions/452206/footnote-in-caption-and-in-the-same-page-of-caption" target="_blank" rel="noopener">Footnote in caption and in the same page of caption</a></p><p><a href="https://tex.stackexchange.com/questions/228973/argument-of-captionydblarg-has-an-extra" target="_blank" rel="noopener">Argument of \caption@ydblarg has an extra }</a></p>]]></content>
@@ -16,7 +36,7 @@
       
         <tags>
             
-            <tag> typesetting </tag>
+            <tag> writing </tag>
             
         </tags>
       
