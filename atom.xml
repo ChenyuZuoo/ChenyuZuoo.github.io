@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2020-09-25T13:11:06.474Z</updated>
+  <updated>2020-10-20T18:32:52.349Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Postgis Error on st_within</title>
+    <link href="https://chenyuzuoo.github.io/posts/37160/"/>
+    <id>https://chenyuzuoo.github.io/posts/37160/</id>
+    <published>2020-10-20T18:21:44.000Z</published>
+    <updated>2020-10-20T18:32:52.349Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;SRID&lt;/code&gt; is a spatial reference identifier. The &lt;code&gt;SRID&lt;/code&gt; of WGS84 is 4326. In Postgis, the spatial query is based on
+        
+      
+    
+    </summary>
+    
+      <category term="Database" scheme="https://chenyuzuoo.github.io/categories/Database/"/>
+    
+    
+      <category term="spatial query" scheme="https://chenyuzuoo.github.io/tags/spatial-query/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Show Changes in Latex</title>
     <link href="https://chenyuzuoo.github.io/posts/33608/"/>
     <id>https://chenyuzuoo.github.io/posts/33608/</id>
     <published>2020-09-25T13:04:58.000Z</published>
-    <updated>2020-09-25T13:11:06.474Z</updated>
+    <updated>2020-09-25T13:11:25.547Z</updated>
     
     <summary type="html">
     
@@ -498,28 +524,6 @@
     
     
       <category term="ArcGIS" scheme="https://chenyuzuoo.github.io/tags/ArcGIS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pandas DataFrame Row Slicing by Value from another Table</title>
-    <link href="https://chenyuzuoo.github.io/posts/4477/"/>
-    <id>https://chenyuzuoo.github.io/posts/4477/</id>
-    <published>2017-11-29T22:05:44.000Z</published>
-    <updated>2018-03-30T20:33:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;There are &lt;code&gt;field_1&lt;/code&gt; in both tables, we want to get rows &lt;code&gt;field_3&lt;/code&gt; from &lt;code&gt;table_2&lt;/code&gt; if the
-        
-      
-    
-    </summary>
-    
     
   </entry>
   

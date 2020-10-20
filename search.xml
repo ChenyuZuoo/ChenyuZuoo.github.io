@@ -3,6 +3,26 @@
   
     
     <entry>
+      <title>Postgis Error on st_within</title>
+      <link href="/posts/37160/"/>
+      <content type="html"><![CDATA[<p><code>SRID</code> is a spatial reference identifier. The <code>SRID</code> of WGS84 is 4326. In Postgis, the spatial query is based on the geometries have the same <code>SRIDs</code>. When using the PostGIS Shapefile Import/Export Manager, the <code>SRID</code> is shown. </p><p>To check the <code>SRID</code> of a shapefile:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> Find_SRID(<span class="string">'schema_name'</span>, <span class="string">'table_name'</span>, <span class="string">'geom'</span>);</span><br></pre></td></tr></table></figure></p><p>To change the wrong <code>SRID</code> to WGS84:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- update SRID in the polygon</span></span><br><span class="line"><span class="keyword">UPDATE</span> table_name <span class="keyword">SET</span> geom=ST_SetSRID(geom,<span class="number">4326</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- or</span></span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> table_name</span><br><span class="line"> <span class="keyword">ALTER</span> <span class="keyword">COLUMN</span> geom <span class="keyword">TYPE</span> geometry(MultiPolygon,<span class="number">4326</span>) </span><br><span class="line">  <span class="keyword">USING</span> ST_SetSRID(geom,<span class="number">4326</span>);</span><br></pre></td></tr></table></figure></p><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>[1] <a href="https://postgis.net/2013/08/30/tip_ST_Set_or_Transform/" target="_blank" rel="noopener">ST_Transform and ST_SetSRID: To project or not to project?</a></p><p>[2] <a href="http://stackoverflow.com/questions/35798823/omnimarkuppreviewer-404" target="_blank" rel="noopener">OmniMarkupPreviewer 404</a></p>]]></content>
+      
+      <categories>
+          
+          <category> Database </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> spatial query </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Show Changes in Latex</title>
       <link href="/posts/33608/"/>
       <content type="html"><![CDATA[<p>It is not necessary to manually mark each change of the latex file. One can edit directly in the tex file, using <code>latexdiff</code> to mark the changes texts. One drawback is that when changing the titles of the figures and tables, the changes would note be properly marked. </p><p>The command line for generating the marked tex is:</p><pre><code>latexdiff origin.tex modify.tex &gt; diff.tex</code></pre><p><code>origin.tex</code> is the original tex file. <code>modify.tex</code> is the changed tex file. <code>diff.tex</code> is the tex which could show the changes of the texts.</p>]]></content>
