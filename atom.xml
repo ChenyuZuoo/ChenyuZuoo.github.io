@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2020-12-02T17:36:55.331Z</updated>
+  <updated>2020-12-02T18:06:08.170Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>How to Draw a Horizon Chart with R</title>
+    <link href="https://chenyuzuoo.github.io/posts/7349/"/>
+    <id>https://chenyuzuoo.github.io/posts/7349/</id>
+    <published>2020-12-02T17:44:31.000Z</published>
+    <updated>2020-12-02T18:06:08.170Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Why-Horizon-Chart&quot;&gt;&lt;a href=&quot;#Why-Horizon-Chart&quot; class=&quot;headerlink&quot; title=&quot;Why Horizon Chart?&quot;&gt;&lt;/a&gt;Why Horizon
+        
+      
+    
+    </summary>
+    
+      <category term="R" scheme="https://chenyuzuoo.github.io/categories/R/"/>
+    
+    
+      <category term="visualization" scheme="https://chenyuzuoo.github.io/tags/visualization/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CORS Error</title>
     <link href="https://chenyuzuoo.github.io/posts/4537/"/>
     <id>https://chenyuzuoo.github.io/posts/4537/</id>
     <published>2020-11-26T17:28:26.000Z</published>
-    <updated>2020-12-02T17:36:55.331Z</updated>
+    <updated>2020-12-02T17:37:22.413Z</updated>
     
     <summary type="html">
     
@@ -502,34 +528,6 @@
       <category term="GeoServer" scheme="https://chenyuzuoo.github.io/tags/GeoServer/"/>
     
       <category term="Leaflet" scheme="https://chenyuzuoo.github.io/tags/Leaflet/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Start a Local Server with Python3</title>
-    <link href="https://chenyuzuoo.github.io/posts/50946/"/>
-    <id>https://chenyuzuoo.github.io/posts/50946/</id>
-    <published>2018-06-03T08:57:59.000Z</published>
-    <updated>2018-06-03T17:14:14.897Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Python3 changed the &lt;code&gt;SimpleHTTPServer&lt;/code&gt;. To use it, see as followed:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Open &lt;code&gt;cmd&lt;/code&gt; on the folder you
-        
-      
-    
-    </summary>
-    
-      <category term="Python" scheme="https://chenyuzuoo.github.io/categories/Python/"/>
-    
-    
-      <category term="network" scheme="https://chenyuzuoo.github.io/tags/network/"/>
     
   </entry>
   
