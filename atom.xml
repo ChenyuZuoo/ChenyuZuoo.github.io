@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenyuzuoo.github.io/"/>
-  <updated>2020-12-02T18:13:56.346Z</updated>
+  <updated>2020-12-16T09:14:26.907Z</updated>
   <id>https://chenyuzuoo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Save SVG in JS</title>
+    <link href="https://chenyuzuoo.github.io/posts/21788/"/>
+    <id>https://chenyuzuoo.github.io/posts/21788/</id>
+    <published>2020-12-16T09:11:47.000Z</published>
+    <updated>2020-12-16T09:14:26.907Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;To save a SVG when it is rendered in the page, you can write this in the console:&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="https://chenyuzuoo.github.io/categories/JavaScript/"/>
+    
+    
+      <category term="visualization" scheme="https://chenyuzuoo.github.io/tags/visualization/"/>
+    
+  </entry>
   
   <entry>
     <title>How to Draw a Horizon Chart with R</title>
@@ -492,42 +519,6 @@
       <category term="web mapping" scheme="https://chenyuzuoo.github.io/tags/web-mapping/"/>
     
       <category term="Network" scheme="https://chenyuzuoo.github.io/tags/Network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Build up Webmapping Environment on Windows</title>
-    <link href="https://chenyuzuoo.github.io/posts/9583/"/>
-    <id>https://chenyuzuoo.github.io/posts/9583/</id>
-    <published>2018-06-03T13:58:02.000Z</published>
-    <updated>2018-06-04T08:01:30.315Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;This blog is about how to do web mapping with local database and server.&lt;/p&gt;
-&lt;p&gt;Tools: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Java&lt;/li&gt;
-&lt;li&gt;Apache
-        
-      
-    
-    </summary>
-    
-      <category term="Network" scheme="https://chenyuzuoo.github.io/categories/Network/"/>
-    
-    
-      <category term="Tomcat" scheme="https://chenyuzuoo.github.io/tags/Tomcat/"/>
-    
-      <category term="PostgreSQL" scheme="https://chenyuzuoo.github.io/tags/PostgreSQL/"/>
-    
-      <category term="GeoServer" scheme="https://chenyuzuoo.github.io/tags/GeoServer/"/>
-    
-      <category term="Leaflet" scheme="https://chenyuzuoo.github.io/tags/Leaflet/"/>
     
   </entry>
   
